@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Avenir Book";
+
+}
+h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+#assignment1-gallery {
+}
+li {
+    margin-top: 20px;
+    font-size: 14pt;
+}
+ul > li {
+    margin-top: 5px;
+    font-size: 12pt;
+}
+.sketch {
+    width: 500px; 
+    height: auto; 
+    float: left;
+}
+.overview-container {
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14pt;
+    line-height: 22pt;
+}
+
+
+#personas-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;  */
+    justify-content: space-around; 
+}
+
+.persona-item {
+    display: flex;
+    align-items: flex-start;
+    width: 700px; 
+    height: 100%;
+    /* margin-top: 20px; */
+    display: inline-block;
+    text-align: center;
+    /* display: inline-block; */
+    /* display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;  */
+}
+
+#storyboard-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;  */
+    justify-content: space-around; 
+}
+
+.storyboard-item {
+    display: flex;
+    align-items: flex-start;
+    width: 500px; 
+    height: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    /* display: inline-block; */
+    /* display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;  */
+}
+
+.storyboard-image {
+    max-width: 100%;
+    margin-top: 10px;
+    /* align-items: center; */
+}
+
+.storyboard-text {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.find-background {
+    background-color: white;
+}
+
+
